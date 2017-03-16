@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+}
+
+.menu-bar {
+  position: fixed;
+  margin-top: 25vh;
+  background-image: url('images/navborder.png');
+  width: 30vh;
+  height: 60vh;
+  background-repeat: no-repeat;
+}
+
+.menu-bar a {
+  position: relative;
+  left: 3.5vw;
+  top: 7vh;
+  display: block;
+  color: gray;
+  line-height: 4em;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: .9em;
+}
+
+
+
+#home-animate {
+  display: inline-block;
+  position: relative;
+  top: 30vh;
+  left: 16vw;
+  width: 400px;
+  height: 300px;
+  border: 2px solid red;
+
+}
+
+#skills-animate {
+    position: relative;
+    top: 80vh;
+    left: 16vw;
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+
+  }
+
+
+
+/*#projects{
+    position: relative;
+    top: 100vh;
+    left: 16vw;
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+
+  }
+
+#about-me-animate {
+    position: relative;
+    top: 100vh;
+    left: 16vw;
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;*/
+
+
+.logo {
+   display: inline-block;
+   position: absolute;
+   top: 7vh;
+   left: 50vw;
+}
+
+.succulent img{
+  display: inline-block;
+  position: absolute;
+  bottom:16vh;
+  left: 60vw;
+  opacity: 0.3;
+
+  /*animation-duration: 5s;
+  animation-name: sliding-vertically;;*/
+}
+
+
+
+/*@keyframes slidein {
+ from {
+   margin-left: 400%;
+   width: 300%;
+ }
+
+ to {
+   margin-left: 0%;
+   width: 400%;
+ }
+}*/

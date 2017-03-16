@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  z-index: 1;
+  width: 100vw;
+  height: 60vh;
+  border: 2px solid red;
+  text-align: center;
+}
+
+
+
+.slides {
+
+}
+
+.menu-bar {
+  z-index: 10;
+  position: fixed;
+  margin-top: 10vh;*/
+  width: 35vh;
+  height: 60vh;
+  background-repeat: no-repeat;
+}
+
+#menu-bar {
+  z-index: 10;
+  position: fixed;
+  margin-top: 10vh;
+  width: 35vh;
+  height: 60vh;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.menu-bar a {
+  position: relative;
+  bottom: 51vh;
+  margin-top: 7vh;
+  display: block;
+  color: gray;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: .9em;
+  letter-spacing: .5em;
+
+}
+
+.menu-bar a:hover {
+  border: 1px solid gray;
+  opacity: 0.6;
+}
+
+.logo {
+   display: inline-block;
+   position: relative;
+   top: 13vh;
+   right: 7vw;
+   width: 15vw;
+   height: 20vh;
+   /*left: 3vw;*/
+}
+
+.succulent img{
+  display: inline-block;
+  position: relative;
+  /*bottom: 30vh;*/
+  left: 14vw;
+  width: 35vw;
+  height: 60vh;
+  bottom: 20vh;
+
+  opacity: 0.3;
+
+}
+
+.animation {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3em;
+}
+
+#home-animate {
+  display: inline-block;
+  position: relative;
+  top: 30vh;
+  float: left;
+  left: 16vw;
+  width: 400px;
+  height: 300px;
+  border: 2px solid red;
+
+}
+
+
+#skills-animate {
+    position: relative;
+    top: 20vh;
+    float: right;
+    right: 9vw;
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+  }
+
+
+#projects-animate {
+      position: relative;
+      top: 45vh;
+      left: 7vw;
+      width: 400px;
+      height: 300px;
+      border: 2px solid yellow;
+  }
+
+
+  #about-animate  {
+        position: relative;
+        float: right;
+        bottom: 10vh;
+        right: 9vw;
+        width: 400px;
+        height: 300px;
+        border: 2px solid pink;
+        opacity: 0.9;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 3em;
+    }
+
+    #projects {
+      z-index: 1;
+    }
+
+    .about-me-text {
+      position: relative;
+      bottom: 10vh;
+      width: 25vw;
+      height: 20vh;
+      left:25vw;
+    }
+
+/*#projects{
+    position: relative;
+    top: 100vh;
+    left: 16vw;
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+
+  }
+
+#about-me-animate {
+    position: relative;
+    top: 100vh;
+    left: 16vw;
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;*/
+
+
+
+.section .slide {
+  clear: both;
+  position: relative;
+
+
+}
+
+.projects-image {
+  display: inline-block;
+  position: relative;
+  left: 30vw;
+  bottom: 36.5vh;
+  opacity: 0.5;
+  width: 35vw;
+  height: 90vh;
+}
+
+/*.about-me-text img {
+  position: absolute;
+  right: 10vw;
+
+}*/
+
+.about-me-text {
+  margin-top: 15vh;
+  font-family: 'Alegreya', serif;
+  font-size: 0.8em;
+
+}
+
+.about-me-text img {
+  opacity: 0.7;
+}
+
+.about-me-text .icons img{
+  margin-left: 40px;
+  margin-top: 20px;
+
+}
+
+/*.bottom-border {
+  position: relative;
+  top: 80%;
+  opacity: 0.4;
+  width: 100vw;
+}*/
+
+
+/*@keyframes slidein {
+ from {
+   margin-left: 400%;
+   width: 300%;
+ }
+
+ to {
+   margin-left: 0%;
+   width: 400%;
+ }
+}*/
+
+@media (min-width: 1670px){
+  .logo {
+     display: inline-block;
+     position: relative;
+     top: 13vh;
+     right: 2vw;
+     width: 20vw;
+     height: 25vh;
+  }
+
+  .succulent img{
+    display: inline-block;
+    position: relative;
+    bottom: 20vh;
+    left: 16vw;
+    width: 35vw;
+    height: 70vh;
+    opacity: 0.3;
+  }
+
+  #menu-bar {
+    z-index: 10;
+    position: fixed;
+    width: 35vh;
+    height: 60vh;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+  }
+
+  .menu-bar a {
+    position: relative;
+    bottom: 39vh;
+    margin-top: 6vh;
+    display: block;
+    color: gray;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: .9em;
+    letter-spacing: .5em;
+
+  }
+
+
+  .menu-bar a:hover {
+    border: 1px solid gray;
+    opacity: 0.6;
+  }
+
+  .projects-image {
+    display: inline-block;
+    position: relative;
+    left: 30vw;
+    bottom: 12vh;
+    opacity: 0.5;
+  }
+
+  #about-animate  {
+        position: relative;
+        float: right;
+        right: 9vw;
+        bottom: 20vh;
+
+    }
+
+  .about-me-text {
+    margin-top: 30vh;
+    font-family: 'Alegreya', serif;
+    font-size: 1.2em;
+
+  }
+
+}
